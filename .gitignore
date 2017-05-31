@@ -17,6 +17,8 @@ decaf/
 submission/
 darknet
 .fuse*
+darknet.weights
+darknet.conv.13
 
 # OS Generated #
 .DS_Store*
