@@ -1,6 +1,6 @@
 GPU=0
 CUDNN=0
-OPENCV=0
+OPENCV=1
 DEBUG=0
 
 ARCH= -gencode arch=compute_20,code=[sm_20,sm_21] \
@@ -16,7 +16,7 @@ VPATH=./src/
 EXEC=darknet
 OBJDIR=./obj/
 
-CC=gcc
+CC=gcc-7
 NVCC=nvcc 
 OPTS=-Ofast
 LDFLAGS= -lm -pthread 
