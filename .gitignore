@@ -21,6 +21,9 @@ darknet
 darknet.weights
 darknet.conv.13
 
+playground/
+results/
+
 # OS Generated #
 .DS_Store*
 ehthumbs.db
